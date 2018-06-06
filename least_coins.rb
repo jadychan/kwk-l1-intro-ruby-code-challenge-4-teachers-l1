@@ -25,4 +25,4 @@ def least_coins(cents)
   end
   puts type
 end
-least_coins(50)
+least_coins(29)
