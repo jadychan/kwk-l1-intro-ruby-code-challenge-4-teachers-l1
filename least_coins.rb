@@ -15,5 +15,6 @@ def least_coins(cents)
       cents -= 25
     end
   end
-  puts type 
+  puts type
 end
+least_coins(50)
