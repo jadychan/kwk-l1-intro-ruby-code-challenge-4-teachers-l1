@@ -15,6 +15,12 @@ def least_coins(cents)
     elsif cents >= 10 && cents < 25
       type[:dimes] += 1
       cents -= 10
+    elsif cents >= 5 && cents < 10
+      type[:nickels] += 1
+      cents -= 5
+    elsif cents >= 1 && cents < 5
+      type[:pennies] += 1
+      cents -= 1
     end
   end
   puts type
