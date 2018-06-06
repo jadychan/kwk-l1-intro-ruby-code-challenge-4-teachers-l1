@@ -14,5 +14,6 @@ def least_coins(cents)
       type[:quarters] += 1
       cents -= 25
     end
-
+  end
+  puts type 
 end
